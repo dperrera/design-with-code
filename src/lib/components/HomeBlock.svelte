@@ -63,7 +63,7 @@
 	<div class="flex-1 text-2xl sm:text-4xl lg:text-6xl sm:font-light p-4 sm:p-12">
 		{title}<span class={subtitleClasses}>{subtitle}</span>
 	</div>
-	<div class="flex-none self-stretch aspect-square flex items-center justify-center">
+	<div class="p-4 sm:p-12">
 		<Key {char} class={keyClasses} />
 	</div>
 </div>
